@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ma Maison</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a class="brand" href="#accueil">Villa BC90</a>
+            <nav aria-label="Navigation principale">
+                <a href="#accueil">Accueil</a>
+                <a href="#etages">Les étages</a>
+                <a href="#facade">Façade</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false">
+                Thème sombre
+            </button>
+        </header>
+
+        <main>
+            <section class="hero" id="accueil">
+                <div class="hero-content">
+                    <h1>Bienvenue à Villa BC90</h1>
+                    <p>Découvrez les espaces et les équipements de la maison, étage par étage.</p>
+                    <a class="button" href="#etages">Découvrir les étages</a>
+                </div>
+            </section>
+
+            <section class="features" id="etages">
+                <div class="section-heading">
+                    <h2>Les espaces, étage par étage</h2>
+                    <p>Découvrez la maison en vidéo, du rez-de-chaussée au troisième étage.</p>
+                </div>
+                <div class="feature">
+                    <video controls preload="metadata" playsinline poster="../fichiers/RDC/IMG-20261125-WA0021.jpg" aria-label="Vidéo du rez-de-chaussée">
+                        <source src="../fichiers/RDC/VID-20261125-WA0049.mp4" type="video/mp4">
+                        Votre navigateur ne prend pas en charge la lecture vidéo.
+                    </video>
+                    <div class="feature-content">
+                        <h3>Rez-de-chaussée</h3>
+                        <p>Parcourez les espaces du rez-de-chaussée en vidéo.</p>
+                        <p>Ce niveau est actuellement réservé donc indisponible.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <video controls preload="metadata" playsinline poster="../fichiers/deco&amp;piece/IMG-20261125-WA0023.jpg" aria-label="Vidéo du premier étage">
+                        <source src="../fichiers/1er%20etage/VID-20261125-WA0051.mp4" type="video/mp4">
+                        Votre navigateur ne prend pas en charge la lecture vidéo.
+                    </video>
+                    <div class="feature-content">
+                        <h3>1er étage</h3>
+                        <ul>
+                            <li>Deux chambres, dont une chambre parentale, et un salon</li>
+                            <li>Chambre parentale avec salle de bain et toilettes privatives</li>
+                            <li>Cuisine, toilettes visiteurs et deux balcons</li>
+                        </ul>
+                        <div class="studio">
+                            <h4>Studio indépendant</h4>
+                            <p>Un salon, une chambre, un coin cuisine et des toilettes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <video controls preload="metadata" playsinline poster="../fichiers/deco&amp;piece/IMG-20261125-WA0015.jpg" aria-label="Vidéo du deuxième étage">
+                        <source src="../fichiers/2e%20etage/VID-20261125-WA0048.mp4" type="video/mp4">
+                        Votre navigateur ne prend pas en charge la lecture vidéo.
+                    </video>
+                    <div class="feature-content">
+                        <h3>2e étage</h3>
+                        <ul>
+                            <li>Trois chambres, dont une chambre parentale, et un salon</li>
+                            <li>Chambre parentale avec toilettes privatives</li>
+                            <li>Cuisine, toilettes visiteurs et balcon</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feature">
+                    <video controls preload="metadata" playsinline poster="../fichiers/deco&amp;piece/IMG-20261125-WA0044.jpg" aria-label="Vidéo du troisième étage">
+                        <source src="../fichiers/3e%20etage/VID-20261125-WA0050.mp4" type="video/mp4">
+                        Votre navigateur ne prend pas en charge la lecture vidéo.
+                    </video>
+                    <div class="feature-content">
+                        <h3>3e étage</h3>
+                        <ul>
+                            <li>Deux chambres, dont une chambre parentale, et un salon</li>
+                            <li>Chambre parentale avec toilettes privatives</li>
+                            <li>Cuisine, toilettes visiteurs et espace famille</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="facade" id="facade">
+                <div class="section-heading">
+                    <h2>La façade</h2>
+                    <p>Découvrez l’architecture et les balcons de Villa BC90.</p>
+                </div>
+                <div class="facade-gallery">
+                    <img src="../fichiers/fa%C3%A7ade/IMG-20261125-WA0038.jpg" alt="Façade de Villa BC90 éclairée le soir" loading="lazy" decoding="async">
+                    <img src="../fichiers/fa%C3%A7ade/IMG-20261125-WA0039.jpg" alt="Vue extérieure des balcons de la villa" loading="lazy" decoding="async">
+                    <img src="../fichiers/fa%C3%A7ade/IMG-20261125-WA0043.jpg" alt="Vue de la façade et des étages" loading="lazy" decoding="async">
+                    <img src="../fichiers/fa%C3%A7ade/IMG-20261125-WA0045.jpg" alt="Balcon de la villa vu de l’extérieur" loading="lazy" decoding="async">
+                    <img src="../fichiers/fa%C3%A7ade/IMG-20261125-WA0046.jpg" alt="Entrée et façade de Villa BC90" loading="lazy" decoding="async">
+                </div>
+            </section>
+        </main>
+
+        <footer id="contact">
+            <p><strong>Villa BC90</strong> &copy; 2026</p>
+            <p>Adresse du bien : Cité Akys Bambilor, Villa BC90</p>
+            <div class="agency-contact">
+                <h2>Agence de gestion</h2>
+                <p><strong>Société Immobilière &amp; Services (SIS SUARL)</strong></p>
+                <address>Parcelles Assainies, Unité 8, N° 570,<br>Rond-Point Case-Bi</address>
+                <p>
+                    <strong>Téléphones :</strong>
+                    <a href="tel:+221338554603">33 855 46 03</a> ·
+                    <a href="tel:+221775434247">77 543 42 47</a> ·
+                    <a href="tel:+221777095388">77 709 53 88</a> ·
+                    <a href="tel:+221775359484">77 535 94 84</a>
+                </p>
+                <p>NINEA : 006250758 2 R2 | RCCM : SN DKR 2017 B 4082</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
