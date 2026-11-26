@@ -80,7 +80,7 @@
                 color: white;
                 background:
                     linear-gradient(90deg, rgba(36, 49, 45, 0.78), rgba(36, 49, 45, 0.15)),
-                    url("fichiers/deco&piece/IMG-20261125-WA0023.jpg") center/cover;
+                    url("../fichiers/deco%26piece/IMG-20261125-WA0023.jpg") center/cover;
             }
 
             .hero-content { max-width: 650px; }
